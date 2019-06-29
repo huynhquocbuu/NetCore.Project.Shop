@@ -11,4 +11,10 @@
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Data.EF\NetCore.Data.EF.csproj" />
+    <ProjectReference Include="..\NetCore.Data\NetCore.Data.csproj" />
+    <ProjectReference Include="..\NetCore.Utilities\NetCore.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
